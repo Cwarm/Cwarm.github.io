@@ -5,18 +5,22 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <link rel="dns-prefetch" href="https://github.com/Cwarm">
+  <title>Cwarm&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
+  <meta name="description" content="coding is keep my heart beating only reason">
+<meta name="keywords" content="Cwarm">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cwarm&#39;s Blog">
+<meta property="og:url" content="https://github.com/Cwarm/index.html">
+<meta property="og:site_name" content="Cwarm&#39;s Blog">
+<meta property="og:description" content="coding is keep my heart beating only reason">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Cwarm&#39;s Blog">
+<meta name="twitter:description" content="coding is keep my heart beating only reason">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Cwarm&#39;s Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -43,11 +47,13 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="img/header.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">John Doe</a></h1>
+		  <h1 class="header-author"><a href="/">Cwarm</a></h1>
 		</hgroup>
+		
+		<p class="header-subtitle">曾经沧海难为水</p>
 		
 
 		<nav class="header-menu">
@@ -56,6 +62,10 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/tags/随笔/">随笔</a></li>
+	        
+				<li><a href="/photos/me.jpeg">相册</a></li>
+	        
+				<li><a href="/allArticles/">所有文章</a></li>
 	        
 			</ul>
 		</nav>
@@ -79,11 +89,15 @@
 				
 					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="weibo" target="_blank" href="https://weibo.com/u/2625453685" title="weibo"><i class="icon-weibo"></i></a>
 		        
 					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 		        
 					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+		        
+					<a class="weixin" target="_blank" href="/jun_1007881787" title="weixin"><i class="icon-weixin"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:Cwarmer@163.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -101,13 +115,19 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="img/header.jpg" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">Cwarm</h1>
 			</hgroup>
 			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>曾经沧海难为水<i class="icon icon-quo-right"></i></p>
 			
+			
+			
+				
+			
+				
 			
 				
 			
@@ -120,22 +140,30 @@
 					
 						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="weibo" target="_blank" href="https://weibo.com/u/2625453685" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 			        
 						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
 			        
+						<a class="weixin" target="_blank" href="/jun_1007881787" title="weixin"><i class="icon-weixin"></i></a>
+			        
+						<a class="mail" target="_blank" href="mailto:Cwarmer@163.com" title="mail"><i class="icon-mail"></i></a>
+			        
 				</div>
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags/随笔/">随笔</a></li>
+		        
+					<li style="width: 25%"><a href="/photos/me.jpeg">相册</a></li>
+		        
+					<li style="width: 25%"><a href="/allArticles/">所有文章</a></li>
 		        
 				</ul>
 			</nav>
@@ -151,6 +179,198 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-docker安装开发环境DNMP" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/28/docker安装开发环境DNMP/">docker安装开发环境DNMP</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/28/docker安装开发环境DNMP/" class="archive-article-date">
+  	<time datetime="2018-04-27T16:24:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="docker是什么？"><a href="#docker是什么？" class="headerlink" title="docker是什么？"></a>docker是什么？</h2><p>docker 可以想象成是一个轻量级的虚拟机，是一个开源的可移植的容器，开发者可以把自己所需要的应用以及依赖包放进去，然后放到任何流行的linux机器上跑起来。</p>
+<h3 id="docker大白话介绍"><a href="#docker大白话介绍" class="headerlink" title="docker大白话介绍"></a>docker大白话介绍</h3><p>Docker的思想来自于集装箱，集装箱解决了什么问题？<br>在一艘大船上，可以把货物规整摆放起来。并且各种各样的货物被集装箱标准化了，集装箱和集装箱之间不会相互影响。那么我们不需要专门运送水果和专门运送化学物品的船了。只要我们把这些货物放在集装箱里好好的，那我们就可以用一艘大船把它们运走。</p>
+<p>docker就是类似的理念。现在都流行云计算了，云计算就好比大货轮。docker就是集装箱。</p>
+<p>1.不同的应用程序可能会有不同的应用环境，比如.net开发的网站和php开发的网站依赖的软件就不一样，如果把他们依赖的软件都安装在一个服务器上就要调试很久，而且很麻烦，还会造成一些冲突。比如IIS和Apache访问端口冲突。这个时候你就要隔离.net开发的网站和php开发的网站。常规来讲，我们可以在服务器上创建不同的虚拟机在不同的虚拟机上放置不同的应用，但是虚拟机开销比较高。docker可以实现虚拟机隔离应用环境的功能，并且开销比虚拟机小，小就意味着省钱了。</p>
+<p>2.你开发软件的时候用的是Ubuntu，但是运维管理的都是centos，运维在把你的软件从开发环境转移到生产环境的时候就会遇到一些Ubuntu转centos的问题，比如：有个特殊版本的数据库，只有Ubuntu支持，centos不支持，在转移的过程当中运维就得想办法解决这样的问题。这时候要是有docker你就可以把开发环境直接封装转移给运维，运维直接部署你给他的docker就可以了。而且部署速度快。</p>
+<p>3.在服务器负载方面，如果你单独开一个虚拟机，那么虚拟机会占用空闲内存的，docker部署的话，这些内存就会利用起来。总之docker就是集装箱原理。</p>
+<h3 id="在Docker中部署LNMP环境可以分为以下几个步骤："><a href="#在Docker中部署LNMP环境可以分为以下几个步骤：" class="headerlink" title="在Docker中部署LNMP环境可以分为以下几个步骤："></a>在Docker中部署LNMP环境可以分为以下几个步骤：</h3><ol>
+<li>安装docker</li>
+<li>创建镜像<ol>
+<li>创建 dockerfile</li>
+<li>build dockerfile</li>
+<li>复制并修改配置文件</li>
+</ol>
+</li>
+<li>运行镜像，并映射端口</li>
+</ol>
+<h4 id="安装docker和docker-compose"><a href="#安装docker和docker-compose" class="headerlink" title="安装docker和docker-compose"></a>安装docker和docker-compose</h4><p>具体安装不细说了，可以百度。<br>安装之后检查版本</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ docker -v</span><br><span class="line">$ docker-compose -v</span><br><span class="line">$ docker-machine -v</span><br></pre></td></tr></table></figure>
+<p>1.1 镜像仓库<br>Docker中的镜像有一个中央厂库DokcerHub，是集中管理镜像的仓库。由于受到各个方面的条件限制，从DockerHub中拉取镜像的速度是非常耗时，有时还不一定把镜像拉取成功。因此必须是有国内源镜像加速器：阿里云、DaoCloud等。本示例是使用DaoCloud镜像加速器：</p>
+<p>修改或者创建/etc/docker/daemon.json 文件,执行如下命令</p>
+<p>  vi /etc/docker/daemon.json</p>
+<p>  修改形式如下：</p>
+<p> {</p>
+<pre><code>&quot;registry-mirrors&quot;: [
+
+    &quot;DaoCloud加速器地址&quot;
+
+]
+</code></pre><p>  }</p>
+<p> 保存，重启docker。<br> service docker restart<br> 此时拉取镜像速度回快一点</p>
+<p> 如果是mac,打开应用。preferences 中的Daemon中registry mirror中加入镜像加速地址。重启就好</p>
+<p>1.2 Dockerfile文件<br>Dockerfile 文件类似 Makefile，只是前者根据规则部署容器，后者根据规则编译项目。</p>
+<p>Dockerfile规则请参考：<a href="https://docs.docker.com/engine/reference/builder/。" target="_blank" rel="noopener">https://docs.docker.com/engine/reference/builder/。</a></p>
+<p>接下来每个程序的部署都会用到Dockerfile，所以一定要提前了解每个命令的功能。</p>
+<h4 id="部署mysql"><a href="#部署mysql" class="headerlink" title="部署mysql"></a>部署mysql</h4><p>下载镜像<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull mysql</span><br></pre></td></tr></table></figure></p>
+<p>启动数据库<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> docker &amp;&amp; mkdir mysql &amp;&amp; <span class="built_in">cd</span> mysql</span><br><span class="line">$ docker run -p 3306:3306 --name mymysql -v <span class="variable">$PWD</span>/conf:/etc/mysql/conf.d -v <span class="variable">$PWD</span>/logs:/logs -v <span class="variable">$PWD</span>/data:/mysql_data -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.6</span><br></pre></td></tr></table></figure></p>
+<h4 id="部署nginx"><a href="#部署nginx" class="headerlink" title="部署nginx"></a>部署nginx</h4><p>下载镜像<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull nginx</span><br></pre></td></tr></table></figure></p>
+<p>启动nginx</p>
+<p>1.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> docker &amp;&amp; docker run --name mynginx -p 8080:80 -d -v <span class="variable">$PWD</span>/www/html:/usr/share/nginx/html nginx</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>从容器内拷贝文件到主机上</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> nginx &amp;&amp; docker cp mynginx:/etc/nginx/conf.d/default.conf default.conf</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>把主机上的配置文件映射到容器上，重启容器</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ docker stop mynginx</span><br><span class="line">$ docker rm mynginx</span><br><span class="line">$ docker run --name mynginx -p 8080:80 -v <span class="variable">$PWD</span>/www/html:/usr/share/nginx/html -v <span class="variable">$PWD</span>/nginx/default.conf:/etc/nginx/conf.d/default.conf -d nginx</span><br><span class="line">$ docker restart mynginx</span><br></pre></td></tr></table></figure>
+<h4 id="部署php"><a href="#部署php" class="headerlink" title="部署php"></a>部署php</h4><ol>
+<li><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run --name myphpfpm -p 9000:9000 -d php:7.0-fpm</span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker cp myphpfpm:/usr/<span class="built_in">local</span>/etc/php-fpm.d/www.conf www.conf</span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker cp myphpfpm:/usr/src/php-7.0.29/php.ini-production php.ini</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>4.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> docker &amp;&amp; docker run --name myphpfpm --link mymysql:mysql -v <span class="variable">$PWD</span>/www/html:/var/www/html -v <span class="variable">$PWD</span>/php/www.conf:/usr/<span class="built_in">local</span>/etc/php-fpm.d/www.conf -v <span class="variable">$PWD</span>/php/php.ini:/usr/<span class="built_in">local</span>/etc/php/php.ini -d php:7.0-fpm</span><br></pre></td></tr></table></figure></p>
+<p>搜索可用的docker镜像<br>docker search php</p>
+<p>下载容器镜像<br>docker pull php</p>
+<p>检查运行中的镜像<br>docker ps </p>
+<p>查看更详细的关于某一个容器的信息。<br>docker inspect 镜像id[不需要完整，前三个字符就可以]</p>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><p>docker info </p>
+<p>docker build -t friendlyname .# 使用此目录的 Dockerfile 创建镜像<br>docker run -p 4000:80 friendlyname  # 运行端口 4000 到 90 的“友好名称”映射<br>docker run -d -p 4000:80 friendlyname         # 内容相同，但在分离模式下<br>docker ps                                 # 查看所有正在运行的容器的列表<br>docker stop <hash>                     # 平稳地停止指定的容器<br>docker ps -a           # 查看所有容器的列表，甚至包含未运行的容器<br>docker kill <hash>                   # 强制关闭指定的容器<br>docker rm <hash>              # 从此机器中删除指定的容器<br>docker rm $(docker ps -a -q)           # 从此机器中删除所有容器<br>docker images -a                               # 显示此机器上的所有镜像<br>docker rmi <imagename>            # 从此机器中删除指定的镜像<br>docker rmi $(docker images -q)             # 从此机器中删除所有镜像<br>docker login             # 使用您的 Docker 凭证登录此 CLI 会话<br>docker tag <image> username/repository:tag  # 标记 <image> 以上传到镜像库<br>docker push username/repository:tag            # 将已标记的镜像上传到镜像库<br>docker run username/repository:tag                   # 运行镜像库中的镜像</image></image></imagename></hash></hash></hash></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/04/28/docker安装开发环境DNMP/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-体面" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/27/体面/">体面</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/27/体面/" class="archive-article-date">
+  	<time datetime="2018-04-27T08:05:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500" height="86" src="http://music.163.com/outchain/player?type=2&id=436355188&auto=1&height=66"></iframe>
+
+<p style="font-family:KaiTi"><br><br>　　再一次选择随意借题发挥<br><br>　　你走后才开始后悔<br><br>　　不敢面对这次是我不对<br><br>　　想要体面把你找回<br><br>　　总以为爱情真的无坚不摧<br><br>　　所以犯错也无所谓<br><br>　　却没想过要为自己开罪<br><br>　　是不是让你觉得累<br><br>　　可爱情没有谁错谁对<br><br>　　体面也并不是有进无退<br><br>　　没有谁 自己是刺猬还给别人安慰<br><br>　　如果凡事都不顾及底线<br><br>　　不给对方留选择的空间<br><br>　　企图想这样来获取心安<br><br>　　会令人心寒<br><br>　　两人之间不管什么阶段<br><br>　　一旦鼓起的勇气被阻拦<br><br>　　歉意还来不及让你服软<br><br>　　就涌上心酸<br><br>　　所有的期盼全烟消云散<br><br>　　所有的爱意被高墙隔断<br><br>　　这样的决断 不是体面<br><br>　　是为难</p>
+
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/04/27/体面/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-article-title" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -240,7 +460,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -301,7 +521,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2018 John Doe
+    		&copy; 2018 Cwarm
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -463,7 +683,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">曾经，&lt;br&gt;我总觉得外面的世界有多么多么的好&lt;br&gt;于是,满怀期待去拥抱它&lt;br&gt;然而，时间久了&lt;br&gt;我越来越迷茫&lt;br&gt;也许我还是适合这里吧&lt;br&gt;&lt;br&gt;&lt;br&gt;现在，我回来了&lt;br&gt;</div>
   	  	
     	</section>
     
